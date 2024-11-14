@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  v1:
+    image: valeriodesiati/meteo-v1:latest
+    environment:
+      - API_KEY=${API_KEY}
+    build: .
+    ports:
+      - "5000:5000"
