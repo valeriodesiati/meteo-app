@@ -28,7 +28,7 @@ def get_location():
 def get_data(location):
     try:
         # Construct the API URL for a 5-day forecast
-        url = f'https://api.weatherapi.com/v1/forecast.json?key={weatherAPIKey}&q={location}&days=5'
+        url = f'https://api.weatherapi.com/v1/forecast.json?key={API_KEY}&q={location}&days=5'
         
         # Make the request to WeatherAPI and parse the response as JSON
         data = requests.get(url).json()
