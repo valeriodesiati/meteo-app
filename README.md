@@ -24,20 +24,22 @@ This project is a web application that provides weather forecasts for a user-spe
    git clone https://github.com/valeriodesiati/meteo-app.git
    ```
 
-2. **Navigate to the project directory**:
+2. **Create your own ```.evn``` file following the ```.env-example``` file**:
+   
+3. **Navigate to the project directory**:
 
    ```bash
    cd meteo-app
    ```
 
-3. **Use Docker Compose**:
+4. **Use Docker Compose**:
    - Ensure you have `Docker` and `Docker Compose` installed and run
 
     ```bash
      docker-compose up
      ```
 
-4. **Access the app**:
+5. **Access the app**:
 
      ```bash
      http://127.0.0.1/5000
