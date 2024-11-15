@@ -19,19 +19,26 @@ This project is a web application that provides weather forecasts for a user-spe
 ## Setup and Usage
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/valeriodesiati/meteo-app.git
    ```
+
 2. **Navigate to the project directory**:
+
    ```bash
    cd meteo-app
    ```
+
 3. **Use Docker Compose**:
    - Ensure you have `Docker` and `Docker Compose` installed and run
+
     ```bash
      docker-compose up
      ```
+
 4. **Access the app**:
+
      ```bash
      http://127.0.0.1/5000
      ```
@@ -40,7 +47,6 @@ This project is a web application that provides weather forecasts for a user-spe
 
 1. **Enter Location**: Type a location name in the search bar.
 2. **Get Forecast**: Click the "Get Forecast" button or press Enter. The application will retrieve and display the current, hourly, and 5-day forecasts.
-
 
 ## License
 

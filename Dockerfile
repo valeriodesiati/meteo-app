@@ -12,5 +12,4 @@ COPY . .
 # Expose the necessary ports
 EXPOSE 5000
 
-# Run the script to start both clients
 CMD ["python", "meteo.py"]
