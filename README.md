@@ -24,7 +24,7 @@ This project is a web application that provides weather forecasts for a user-spe
    git clone https://github.com/valeriodesiati/meteo-app.git
    ```
 
-2. **Create your own ```.evn``` file following the ```.env-example``` file**:
+2. **Create your own ```.evn``` file following the ```.env-example``` file**.
    
 3. **Navigate to the project directory**:
 
